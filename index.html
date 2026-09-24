@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#7b1829" />
+  <meta name="description" content="சுந்தர் மற்றும் குடும்பத்தின் கணபதி ஹோமம் அழைப்பிதழ்" />
+  <title>கணபதி ஹோமம் | சுந்தர் & குடும்பம்</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="is-locked">
+  <main class="app-shell">
+
+    <!-- STEP 1 · FRONT COVER -->
+    <section class="stage stage-cover" id="coverStage" aria-label="கணபதி ஹோமம் அழைப்பிதழின் முதல் பக்கம்">
+      <div class="temple-border temple-border--left" aria-hidden="true"></div>
+      <div class="temple-border temple-border--right" aria-hidden="true"></div>
+      <div class="arch" aria-hidden="true"></div>
+      <div class="hanging-lamp hanging-lamp--left" aria-hidden="true"><span></span></div>
+      <div class="hanging-lamp hanging-lamp--right" aria-hidden="true"><span></span></div>
+      <div class="petal petal--1" aria-hidden="true"></div>
+      <div class="petal petal--2" aria-hidden="true"></div>
+      <div class="petal petal--3" aria-hidden="true"></div>
+
+      <div class="cover-content">
+        <img class="cover-ganapathy" src="assets/ganapathy-click.svg" alt="விநாயகர் சின்னம்" />
+        <p class="sacred-line">ஸ்ரீ கன்னிமார்கள் துணை</p>
+        <div class="ornament-line" aria-hidden="true"><span></span><b>❦</b><span></span></div>
+
+        <h1>கணபதி<br><span>ஹோமம்</span></h1>
+
+        <div class="open-seal-wrap">
+          <button id="openInvite" class="open-seal" type="button" aria-label="அழைப்பிதழைத் திறக்க">
+            <span class="open-seal__halo"></span>
+            <img src="assets/ganapathy-click.svg" alt="" />
+          </button>
+          <p>அழைப்பைப் திறக்கத் தட்டவும்</p>
+        </div>
+
+        <div class="offerings" aria-hidden="true">
+          <span class="offering coconut">◉</span>
+          <span class="offering flower flower-a">✿</span>
+          <span class="offering leaf leaf-a"></span>
+          <span class="offering fruit fruit-a"></span>
+          <span class="offering fruit fruit-b"></span>
+          <span class="offering leaf leaf-b"></span>
+          <span class="offering flower flower-b">✿</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2 · DATE / TIME CARD FROM ENVELOPE -->
+    <section class="stage stage-date" id="dateStage" aria-hidden="true">
+      <div class="temple-border temple-border--left" aria-hidden="true"></div>
+      <div class="temple-border temple-border--right" aria-hidden="true"></div>
+      <div class="arch" aria-hidden="true"></div>
+      <div class="date-scene">
+        <div class="date-card" id="dateCard">
+          <img src="assets/ganapathy-click.svg" alt="" class="date-card__ganapathy" />
+          <div class="date-card__ornament" aria-hidden="true">❦</div>
+          <div class="date-card__icon" aria-hidden="true">▣</div>
+          <div class="date-card__date">5 அக்டோபர் 2026</div>
+          <div class="date-card__divider" aria-hidden="true"></div>
+          <div class="date-card__clock" aria-hidden="true">◷</div>
+          <div class="date-card__time">காலை 6:00 மணி</div>
+        </div>
+
+        <div class="envelope" aria-hidden="true">
+          <div class="envelope__back"></div>
+          <div class="envelope__front"></div>
+          <div class="envelope__ornament">❀</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 3+ · INVITATION PAGE -->
+    <section class="invite-page" id="invitePage" aria-hidden="true">
+      <div class="invite-rail invite-rail--left" aria-hidden="true"></div>
+      <div class="invite-rail invite-rail--right" aria-hidden="true"></div>
+
+      <div class="invite-panel">
+        <header class="invite-header reveal-block">
+          <img class="invite-ganapathy" src="assets/ganapathy-click.svg" alt="விநாயகர் சின்னம்" />
+          <p class="sacred-line sacred-line--invite">ஸ்ரீ கன்னிமார்கள் துணை</p>
+          <div class="ornament-line ornament-line--small" aria-hidden="true"><span></span><b>❦</b><span></span></div>
+          <h2>கணபதி ஹோமம்</h2>
+        </header>
+
+        <!-- HOUSE PHOTO STARTS LARGE THEN SHRINKS -->
+        <button id="housePhotoCard" class="house-photo house-photo--large reveal-block" type="button" aria-label="எங்கள் புதிய இல்லத்தின் படத்தை பெரிதாக பார்க்க">
+          <img src="assets/house-white-kolam.png" alt="வெள்ளை கோலத்துடன் எங்கள் புதிய இல்லம்" />
+          <span class="house-photo__caption">
+            <strong>எங்கள் புதிய இல்லம்</strong>
+            <small>படத்தை பார்க்கத் தட்டவும்</small>
+          </span>
+        </button>
+
+        <p class="invite-message reveal-block">இந்த மங்களகரமான நிகழ்வில் எங்களுடன் கலந்து கொண்டு எங்கள் இல்லத்தை ஆசீர்வதிக்குமாறு அன்புடன் அழைக்கிறோம்.</p>
+
+        <section class="detail-list reveal-block" aria-label="நிகழ்ச்சி விவரங்கள்">
+          <article class="detail-card">
+            <span class="detail-card__icon" aria-hidden="true">▣</span>
+            <div>
+              <p>தேதி</p>
+              <h3>திங்கட்கிழமை, 5 அக்டோபர் 2026</h3>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <span class="detail-card__icon" aria-hidden="true">◷</span>
+            <div>
+              <p>நேரம்</p>
+              <h3>காலை 6:00 மணி</h3>
+            </div>
+          </article>
+
+          <article class="detail-card">
+            <span class="detail-card__icon" aria-hidden="true">⌖</span>
+            <div>
+              <p>இடம்</p>
+              <h3>1/24 Blair Street,<br>Ripley, QLD 4306</h3>
+            </div>
+          </article>
+        </section>
+
+        <div class="action-grid reveal-block">
+          <a class="action-btn" target="_blank" rel="noopener" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=%E0%AE%95%E0%AE%A3%E0%AE%AA%E0%AE%A4%E0%AE%BF%20%E0%AE%B9%E0%AF%8B%E0%AE%AE%E0%AE%AE%E0%AF%8D%20-%20%E0%AE%9A%E0%AF%81%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%B0%E0%AF%8D%20%26%20%E0%AE%95%E0%AF%81%E0%AE%9F%E0%AF%81%E0%AE%AE%E0%AF%8D%E0%AE%AA%E0%AE%AE%E0%AF%8D&dates=20261004T200000Z%2F20261004T220000Z&ctz=Australia%2FBrisbane&details=%E0%AE%95%E0%AE%A3%E0%AE%AA%E0%AE%A4%E0%AE%BF%20%E0%AE%B9%E0%AF%8B%E0%AE%AE%E0%AE%AE%E0%AF%8D%20%E0%AE%85%E0%AE%B4%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AE%BF%E0%AE%A4%E0%AE%B4%E0%AF%8D&location=1%2F24%20Blair%20Street%2C%20Ripley%2C%20QLD%204306">
+            <span aria-hidden="true">▣</span>
+            காலெண்டரில் சேர்
+          </a>
+          <a class="action-btn" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=1%2F24%20Blair%20Street%2C%20Ripley%2C%20QLD%204306">
+            <span aria-hidden="true">⌖</span>
+            இடம் பார்க்க
+          </a>
+        </div>
+
+        <footer class="closing-card reveal-block">
+          <div class="ornament-line ornament-line--small" aria-hidden="true"><span></span><b>✦</b><span></span></div>
+          <p>அன்புடன்,</p>
+          <h3>சுந்தர் &amp; குடும்பம்</h3>
+          <div class="lotus" aria-hidden="true">♧</div>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <div class="photo-modal" id="photoModal" aria-hidden="true">
+    <button id="closePhoto" class="photo-modal__close" type="button" aria-label="படத்தை மூடு">×</button>
+    <img src="assets/house-white-kolam.png" alt="எங்கள் புதிய இல்லத்தின் முழுப் படம்" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
