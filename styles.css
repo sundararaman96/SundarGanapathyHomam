@@ -85,3 +85,42 @@ button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}img{display
 @media(max-width:520px){.cover-content{padding-left:20px;padding-right:20px}.ganapathy-button__disc{width:140px;height:140px}.page--invite{padding-left:22px;padding-right:22px}.side-border{width:12px}.invite-message{font-size:.98rem}.action-row{grid-template-columns:1fr}.house-card--thumb{width:76%}}
 @media(max-width:380px){.cover-content h1{font-size:3rem}.ganapathy-button__disc{width:128px;height:128px}.envelope-scene{height:490px}.date-card{width:82%;min-height:315px}.date-card__detail{font-size:1rem}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* Dress code — intentionally placed after Calendar and Location actions */
+.dress-code-card{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  margin-top:12px;
+  padding:14px 16px;
+  border:1px solid rgba(198,148,57,.42);
+  border-radius:18px;
+  background:linear-gradient(180deg,rgba(255,250,239,.98),rgba(250,234,205,.96));
+  box-shadow:0 8px 22px rgba(75,36,29,.06);
+  text-align:left;
+}
+.dress-code-card__icon{
+  width:44px;
+  height:44px;
+  flex:0 0 44px;
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  background:#86192d;
+  color:#f2d57f;
+  font-size:1rem;
+}
+.dress-code-card small{
+  display:block;
+  color:#9a6e2f;
+  font-size:.78rem;
+  font-weight:700;
+  margin-bottom:3px;
+}
+.dress-code-card strong{
+  display:block;
+  color:var(--ink);
+  font-size:1rem;
+  line-height:1.5;
+}
