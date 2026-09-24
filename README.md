@@ -1,26 +1,17 @@
-# கணபதி ஹோமம் — Sundar & Anjana
+# Sundar & Anjana — கணபதி ஹோமம் Invitation
 
-Mobile-first Tamil Ganapathy Homam invitation web app.
+Updated version with **உடை முறை — பாரம்பரிய உடை** aligned with the other event information.
 
-## Event
-- தேதி: திங்கட்கிழமை, 5 அக்டோபர் 2026
-- நேரம்: காலை 6:00 மணி
-- இடம்: 1/24 Blair Street, Ripley, QLD 4306
-- உடை முறை: பாரம்பரிய உடை
+The invitation details now appear as four matching cards in a 2 × 2 layout:
 
-## Latest layout update
-The dress-code line now appears **after** the two action buttons:
-1. காலெண்டரில் சேர்
-2. இடம் பார்க்க
-3. உடை முறை — பாரம்பரிய உடை
+1. தேதி
+2. நேரம்
+3. இடம்
+4. உடை முறை — பாரம்பரிய உடை
 
-## Project files
-- `index.html`
-- `styles.css`
-- `script.js`
-- `README.md`
-- `assets/ganapathy-click.jpg`
-- `assets/ganesha-reference.png`
-- `assets/house.jpg`
+The dress-code card is positioned **next to the இடம் card**, and Calendar/Location buttons remain underneath.
 
-Upload the complete folder contents to the root of your GitHub Pages repository.
+All other animations, invitation flow, images, assets and closing text remain unchanged.
+
+## Deployment
+Upload `index.html`, `styles.css`, `script.js`, `README.md` and the complete `assets` folder to the root of your GitHub repository.
