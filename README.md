@@ -48,3 +48,8 @@ Then open:
 **Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save**
 
 Do not rename or move the `assets` folder unless you also update the paths in `index.html` and `styles.css`.
+
+
+## Dress code
+
+- **உடை முறை:** பாரம்பரிய உடை
